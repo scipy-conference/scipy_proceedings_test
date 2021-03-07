@@ -1,19 +1,8 @@
-# SciPy Proceedings
+# Testing ground for SciPy Proceedings
 
-This is the repository for submitting to and managing the Proceedings for the
+This is the repository testing the code and tools for the Proceedings for the
 Annual Scientific Computing with Python Conference.
 
-This repository is a home for authors, reviewers and editors to collaboratively
-create the proceedings for the conference.
-
-You can find more information about the [proceedings' organising principles](#organising-principles-openness) below.
-
-**All** communication between authors and reviewers should be civil and
-respectful. There are no exceptions to this rule. Please see the
-[SciPy2020 Code of Conduct](https://www.scipy2020.scipy.org/code-of-conduct)
-for more info.
-
-You can find the [schedule for 2020](#timeline-for-2020) below.
 
 Please use @-mentions in issues and pull requests(PRs) to [contact the proceedings Co-Chairs](#contacting-the-proceedings-co-chairs).
 
