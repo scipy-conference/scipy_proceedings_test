@@ -10,10 +10,10 @@ You can find more information about the [proceedings' organising principles](#or
 
 **All** communication between authors and reviewers should be civil and
 respectful. There are no exceptions to this rule. Please see the
-[SciPy2020 Code of Conduct](https://www.scipy2020.scipy.org/code-of-conduct)
+[SciPy2022 Code of Conduct](https://www.scipy2022.scipy.org/code-of-conduct)
 for more info.
 
-You can find the [schedule for 2020](#timeline-for-2020) below.
+You can find the [schedule for 2022](#timeline-for-2022) below.
 
 Please use @-mentions in issues and pull requests(PRs) to [contact the proceedings Co-Chairs](#contacting-the-proceedings-co-chairs).
 
@@ -87,7 +87,7 @@ Attribution (CC By) license.
 - Papers are openly available at http://conference.scipy.org/proceedings/, with
   no pay walls barring consumption or author processing charges.
 
-- From 2015 onward, papers have DOIs (making them easily citable) and are also
+- From 2010 onward, papers have DOIs (making them easily citable) and are also
   openly available from those DOIs.
 
 The community is involved in the entire process for creating the proceedings,
@@ -106,24 +106,25 @@ which ensures relevance to the community that created them.
 
 The most effective way to contact the Proceedings Co-Chairs for issues related to this GitHub repository is to use GitHub's issues and "@"-mentioning the Co-Chairs.
 
-In 2020, the Proceedings Co-Chairs are
+In 2022, the Proceedings Co-Chairs are
 - Meghann Agarwal (@mepa)
 - Chris Calloway (@cbcunc)
 - Dillon Niederhut (@deniederhut)
 - David Shupe (@stargaser)
 
-## Timeline for 2020
+## Timeline for 2022
 
 In addition to the following list, we break up the deadlines in the respective documents for authors and reviewers.
 
-- April 6: Authors invited to submit full papers
-- May 22: 1st Draft for Submission
-- May 22–June 25: Open Review Period
-- May 22: Reviewers Assigned
-- June 11: Initial Complete Review
-- June 25: Final Recommendation and Comprehensive Review Deadlines
-- July 3: Final Editorial Decisions for Proceedings Contents Deadline
-- July 8: Time Window for Publishing Conference Ready Proceedings
+- April 5: Authors invited to submit full papers
+- May 27: 1st Draft for Submission
+- May 27–June 23: Open Review Period
+- May 27: Reviewers Assigned
+- June 9: Initial Complete Review
+- June 23: Final Recommendation and Comprehensive Review Deadlines
+- June 29: Final Author Revision Deadline
+- July 6: Final Editorial Decisions for Proceedings Contents Deadline
+- July 30: Time Window for Publishing Conference Ready Proceedings
 
 ## Instructions for Authors
 
@@ -155,10 +156,11 @@ have final say in whether to accept or reject a paper.
 
 ### Author Deadlines
 
-- April 6: Authors invited to submit full papers
-- May 22: 1st Draft for Submission
-- May 22–June 25: Open Review Period
-- July 3: Final Editorial Decisions for Proceedings Contents Deadline
+- April 5: Authors invited to submit full papers
+- May 27: 1st Draft for Submission
+- May 27–June 23: Open Review Period
+- June 29: Final Author Revision Deadline
+- July 6: Final Editorial Decisions for Proceedings Contents Deadline
 
 ### General Information and Guidelines for Authors:
 
@@ -174,12 +176,14 @@ have final say in whether to accept or reject a paper.
   this, the co-chairs will change your title on your behalf.
 - Authors may include a project or consortium (e.g. [The Jupyter Project](https://raw.githubusercontent.com/scipy-conference/scipy_proceedings/2018/papers/project_jupyter/paper.rst))
 - There must be at least one corresponding author, and this must be a specific person with a valid email address
+- Authors of papers from previous SciPys may change their name on their published work by contacting the Proceedings Co-chairs
 - All citations that have DOIs should include those DOIs in the paper's
   references section, see [`mybib.bib`](./papers/00_bibderwalt/mybib.bib).
 - All figures and tables should have captions.
 - Figures and tables should be positioned inline, close to their explanatory text.
 - License conditions on images and figures must be respected (Creative Commons,
   etc.).
+- Images and figures should be reasonably sized and formatted for viewing online; typically a few hundred kilobytes and less than 1 MB.
 - Code snippets should be formatted to fit inside a single column without
   overflow.
 - Avoid custom LaTeX markup where possible.
@@ -213,14 +217,14 @@ git clone https://github.com/mpacer/scipy_proceedings
 
 1. Get a local copy of the `scipy_proceedings` repo.
 2. Update your local copy of the `scipy_proceedings` repo.
-3. [Create a new branch](#creating-a-new-branch-based-off-of-2020) for your paper based off the latest `2020` branch.
+3. [Create a new branch](#creating-a-new-branch-based-off-of-2022) for your paper based off the latest `2022` branch.
     - If you submit multiple papers, you will need a new branch for each.
 4. [Set up your environment](#setting-up-your-environment).
 5. [Write your paper](#write-your-paper), [commit changes](#commit-your-changes), and [build your paper](#build-your-paper)
 6. [Create a PR](#create-a-paper-pr) or [push changes to your PR's branch](#push-your-changes) and [check your paper](#check-your-paper) on http://procbuild.scipy.org.
     - If you want to alter the build system, do not include it in your
       submission's PR, create a separate PR against `dev`
-      ([see below](creating-build-system-prs) for more details).
+      ([see below](#creating-build-system-prs) for more details).
 7. Repeat steps 5 and 6, while also responding to reviewer feedback.
 
 #### Getting a local copy of the scipy_proceedings repo
@@ -243,22 +247,22 @@ upstream	https://github.com/scipy-conference/scipy_proceedings.git (fetch)
 upstream	https://github.com/scipy-conference/scipy_proceedings.git (push)
 ```
 
-#### Getting the latest `2020` branch
+#### Getting the latest `2022` branch
 
 - Fetch the latest version of the `scipy_proceedings` repo
     - `git fetch upstream`
-- Check out the upstream `2020` branch
-    - `git checkout -b 2020 --track upstream/2020`
+- Check out the upstream `2022` branch
+    - `git checkout -b 2022 --track upstream/2022`
 
 #### Creating a new branch based off of `2020`
 
-If you are submitting only one paper, you can use the `2020` branch directly.
+If you are submitting only one paper, you can use the `2022` branch directly.
 
-Otherwise, you will need to create a new branch based on `2020` and set its
+Otherwise, you will need to create a new branch based on `2022` and set its
 upstream to origin.
 
 ```
-git checkout 2020
+git checkout 2022
 git checkout -b <your_branch_name>
 git push --set-upstream origin <your_branch_name>
 ```
@@ -286,7 +290,7 @@ git push --set-upstream origin <your_branch_name>
 - Do not commit any changes to files outside of your paper directory.
 
 If you want to change the way the build system works, we use a separate
-submission procedure ([see below](creating-build-system-prs)).
+submission procedure ([see below](#creating-build-system-prs)).
 
 #### Build your paper
 
@@ -299,7 +303,7 @@ submission procedure ([see below](creating-build-system-prs)).
 
 - Once you are ready to submit your paper, make a pull request on GitHub.
   **Please ensure that you file against the correct branch.**
-- Create a pull request against our `2020` branch.
+- Create a pull request against our `2022` branch.
 - Do not modify any files outside of your paper directory. Create a separate PR for any changes to the build system.
 
 #### Creating build system PRs
@@ -359,9 +363,9 @@ change in question, then that change should be requested and made before the
 
 ### Reviewer Deadlines
 
-- May 22: Reviewers Assigned
-- June 11: Initial Complete Review
-- June 25: Final Recommendation and Comprehensive Review Deadlines
+- May 27: Reviewers Assigned
+- June 9: Initial Complete Review
+- June 23: Final Recommendation and Comprehensive Review Deadlines
 
 ### Reviewer Workflow
 
@@ -432,11 +436,11 @@ To information about how to manage the whole proceedings, please see
 `publisher/README.md` and `publisher/Makefile`.
 
 #### Publisher Deadlines
-
-- April 6: Authors invited to submit full papers
-- May 22–June 25: Open Review Period
+ 
+- April 5: Authors invited to submit full papers
+- May 27–June 23: Open Review Period
     - The [build server](#build-server) should be maintained throughout the Open Review Period.
-- July 10: Time Window for Publishing Conference Ready Proceedings
+- July 30: Time Window for Publishing Conference Ready Proceedings
 
 ### Instructions for Editors
 
@@ -451,12 +455,12 @@ Editors should come to a final 'ready', 'unready' decision before the **Final Ed
 
 #### Editor Deadlines
 
-- April 6: Authors invited to submit full papers
-- May 22–June 25: Open Review Period
-- May 22: Reviewers Assigned
-- June 11: Initial Complete Review
+- April 5: Authors invited to submit full papers
+- May 27–June 23: Open Review Period
+- May 27: Reviewers Assigned
+- June 9: Initial Complete Review
     - Editors should verify that reviews have been completed
-- July 3: Final Editorial Decisions for Proceedings Contents Deadline
+- July 6: Final Editorial Decisions for Proceedings Contents Deadline
 
 ## Instructions for Slides
 
@@ -464,20 +468,29 @@ Editors should come to a final 'ready', 'unready' decision before the **Final Ed
 
 1. Get a local copy of the `scipy_proceedings` repo.
 2. Update your local copy of the `scipy_proceedings` repo.
-3. [Create a new branch](#creating-a-new-branch-based-off-of-2019) for your paper based off the latest `2019` branch.
+3. [Create a new branch](#creating-a-new-branch-based-off-of-2022) for your paper based off the latest `2022` branch.
 4. Inside the `presentations` folder, there are directories for:
     1. 3-minute lightning talk slide decks (lightning)
     2. Posters presented at the poster session (posters)
     3. 30-minute talk slide decks (slides)
     4. SciPy tools plenary slide decks (tools)
 5. Choose the appropriate folder, and make a new directory inside it (it needs a unique name)
-6. Copy your slide deck or poster into the directory, and add a file called `info.json` with the following fields:
+6. Copy your slide deck or poster into the directory, and add a file called `info.json` with the following fields needed for uploading to Zenodo (using an empty string for author orcid or
+affiliation if these cannot be provided):
 ```json
 {
     "title": "The title of your presentation",
     "authors": [
-        "The first author or presenter",
-        "The second author or presenter"
+        {
+            "name": "The first author or presenter",
+            "affiliation": "first author's affiliation",
+            "orcid": "0000-0000-0000-0000"
+        },
+        {
+            "name": "The second author or presenter",
+            "affiliation": "second author's affiliation",
+            "orcid": "0000-0000-0000-0001"
+        }
     ],
     "description": "1-4 sentences explaining what your presentation is about"
 }

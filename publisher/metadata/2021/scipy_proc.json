@@ -1,6 +1,6 @@
 {
   "proceedings": {
-    "doi": "",
+    "doi": "10.25080/majora-1b6fd038-02b",
     "xref": {
       "prefix": "10.25080",
       "registrant": "Crossref",
@@ -19,19 +19,19 @@
     },
     "title": {
       "conference": "Python in Science Conference",
-      "full": "Proceedings of the 21st Python in Science Conference",
-      "short": "PROC. OF THE 21st PYTHON IN SCIENCE CONF. (SCIPY 2022)",
+      "full": "Proceedings of the 20th Python in Science Conference",
+      "short": "PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)",
       "acronym": "SciPy",
-      "ordinal": "21st"
+      "ordinal": "20th"
     },
-    "citation_key": "proc-scipy-2022",
+    "citation_key": "proc-scipy-2021",
     "editor_email": [
       "agarwal.meghann@gmail.com",
       "cbc@unc.edu",
       "dillon.niederhut@gmail.com",
       "dave.shupe@gmail.com"
     ],
-    "dates": "July 11 - July 17",
+    "dates": "July 12 - July 18",
     "editor": [
       "Meghann Agarwal",
       "Chris Calloway",
@@ -39,10 +39,10 @@
       "David Shupe"
     ],
     "location": "Austin, Texas",
-    "volume": 7,
+    "volume": 6,
     "number": 1,
     "isbn": "noisbn",
-    "year": "2022"
+    "year": "2021"
   },
   "organization": [
     {
@@ -54,7 +54,7 @@
         },
         {
           "org": "Enthought, Inc.",
-          "name": "Alexandre Chabot-Leclerc"
+          "name": "Corran Webster"
         }
       ]
     },
@@ -66,26 +66,14 @@
           "name": "Matt Haberland"
         },
         {
-          "org": "Mozilla",
-          "name": "Julie Hollek"
-        },
-        {
           "org": "University of Illinois",
           "name": "Madicken Munk"
-        },
-        {
-          "org": "Microsoft Corp",
-          "name": "Guen Prawiroatmodjo"
         }
       ]
     },
     {
       "name": "Communications",
       "members": [
-        {
-          "org": "NumFOCUS",
-          "name": "Arliss Collins"
-        },
         {
           "org": "Populus",
           "name": "Matt Davis"
@@ -100,12 +88,12 @@
       "name": "Birds of a Feather",
       "members": [
         {
-          "org": "NIST",
-          "name": "Andrew Reid"
+          "org": "Mozilla",
+          "name": "Julie Hollek"
         },
         {
-          "org": "George Washington University",
-          "name": "Anastasiia Sarmakeeva"
+          "org": "Université de Montréal",
+          "name": "Nadia Tahiri"
         }
       ]
     },
@@ -113,7 +101,7 @@
       "name": "Proceedings",
       "members": [
         {
-          "org": "Overhaul",
+          "org": "Oracle",
           "name": "Meghann Agarwal"
         },
         {
@@ -138,8 +126,8 @@
           "name": "Scott Collis"
         },
         {
-          "org": "Université de Montréal",
-          "name": "Nadia Tahiri"
+          "org": "Novartis Institutes for Biomedical Research",
+          "name": "Eric Ma"
         }
       ]
     },
@@ -152,7 +140,11 @@
         },
         {
           "org": "Enthought, Inc.",
-          "name": "Logan Thomas"
+          "name": "Eric Olsen"
+        },
+        {
+          "org": "The Carpentries",
+          "name": "Serah Rono"
         }
       ]
     },
@@ -160,12 +152,8 @@
       "name": "Sprints",
       "members": [
         {
-          "org": "Quansight Labs",
-          "name": "Tania Allard"
-        },
-        {
-          "org": "Caltech/IPAC",
-          "name": "Brigitta Sipőcz"
+          "org": "Monash University",
+          "name": "Juan Nunez-Iglesias"
         }
       ]
     },
@@ -177,12 +165,8 @@
           "name": "Celia Cintas"
         },
         {
-          "org": "O'Reilly Media",
-          "name": "Bonny P McClain"
-        },
-        {
-          "org": "OpenTeams",
-          "name": "Fatma Tarlaci"
+          "org": "Microsoft Quantum",
+          "name": "Guen Prawiroatmodjo"
         }
       ]
     },
@@ -190,7 +174,7 @@
       "name": "Activities",
       "members": [
         {
-          "org": "Codecov",
+          "org": "HEB",
           "name": "Paul Anzel"
         },
         {
@@ -238,7 +222,85 @@
       "name": "Proceedings Reviewers",
       "members": [
         {
-          "name": ""
+          "name": "Adam Thompson"
+        },
+        {
+          "name": "Alberto Antonietti"
+        },
+        {
+          "name": "Anirudh Acharya"
+        },
+        {
+          "name": "Brian Gue"
+        },
+        {
+          "name": "Chiara Marmo"
+        },
+        {
+          "name": "Chris Calloway"
+        },
+        {
+          "name": "David Nicholson"
+        },
+        {
+          "name": "David Shupe"
+        },
+        {
+          "name": "Dillon Niederhut"
+        },
+        {
+          "name": "Fatma Tarlaci"
+        },
+        {
+          "name": "Heather Schovanec"
+        },
+        {
+          "name": "Jyotika Singh"
+        },
+        {
+          "name": "Kelvin Lee"
+        },
+        {
+          "name": "Kirtan Dave"
+        },
+        {
+          "name": "Kyle Penner"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Meghann Agarwal"
+        },
+        {
+          "name": "Nadia Tahiri"
+        },
+        {
+          "name": "Nuno Castro"
+        },
+        {
+          "name": "Richard Liaw"
+        },
+        {
+          "name": "Ryan Bunney"
+        },
+        {
+          "name": "Shubham Sharma"
+        },
+        {
+          "name": "Scott Sievert"
+        },
+        {
+          "name": "Stéfan van der Walt"
+        },
+        {
+          "name": "Tetsuo Koyama"
+        },
+        {
+          "name": "Tyler Skluzacek"
+        },
+        {
+          "name": "Tzu-Chi Yen"
         }
       ]
     }
@@ -256,21 +318,152 @@
   "scipy_scholarship": [
     {
       "org": "",
-      "name": ""
+      "name": "Ahmed Abdelazeem Adam"
     },
     {
       "org": "",
-      "name": ""
+      "name": "Jishan Ahmed"
+    },
+    {
+      "org": "",
+      "name": "Erick Faria"
+    },
+    {
+      "org": "",
+      "name": "T.S.Sachin Venkatesh"
+    },
+    {
+      "org": "",
+      "name": "Alessandro Lodi"
+    },
+    {
+      "org": "",
+      "name": "Pablo Adrian Toledo Margalef"
+    },
+    {
+      "org": "",
+      "name": "Moinak  Bose"
+    },
+    {
+      "org": "",
+      "name": "Vinícius Salazar"
+    },
+    {
+      "org": "",
+      "name": "Vinicius  Cerutti"
+    },
+    {
+      "org": "",
+      "name": "Ana Krelling"
+    },
+    {
+      "org": "",
+      "name": "Sai Santhosh  Akavaram"
+    },
+    {
+      "org": "",
+      "name": "Idris Zakariyya"
+    },
+    {
+      "org": "",
+      "name": "Mauricio Ernesto Rodríguez Alas"
+    },
+    {
+      "org": "",
+      "name": "Shubham Sharma"
+    },
+    {
+      "org": "",
+      "name": "Gajendra Deshpande"
+    },
+    {
+      "org": "",
+      "name": "Israel Adeh-Aboh"
+    },
+    {
+      "org": "",
+      "name": "Serge Guelton"
+    },
+    {
+      "org": "",
+      "name": "Samuel Damilola Obafisoye"
+    },
+    {
+      "org": "",
+      "name": "Akihiro Nitta"
+    },
+    {
+      "org": "",
+      "name": "Francesco Andreuzzi"
+    },
+    {
+      "org": "",
+      "name": "Laura  Gutierrez Funderburk"
+    },
+    {
+      "org": "",
+      "name": "Appah Akuamoah Adarkwah"
+    },
+    {
+      "org": "",
+      "name": "Neha Gupta"
+    },
+    {
+      "org": "",
+      "name": "Eduardo Destefani Stefanato"
+    },
+    {
+      "org": "",
+      "name": "Milan Marlon McGraw"
+    },
+    {
+      "org": "",
+      "name": "Wamba Tchinda Claudin"
+    },
+    {
+      "org": "",
+      "name": "Vinicius Cerutti"
+    },
+    {
+      "org": "",
+      "name": "Oluwakayode Olamoyegun"
+    },
+    {
+      "org": "",
+      "name": "Tyler Newton"
+    },
+    {
+      "org": "",
+      "name": "Kaira Paul"
+    },
+    {
+      "org": "",
+      "name": "Annajiat Alim Rasel"
+    },
+    {
+      "org": "",
+      "name": "Ernest Arko"
+    },
+    {
+      "org": "",
+      "name": "Emaude Altema"
+    },
+    {
+      "org": "",
+      "name": "Eyal Kazin"
+    },
+    {
+      "org": "",
+      "name": "Nurul Farahain Mohammad"
+    },
+    {
+      "org": "",
+      "name": "Aman Goel"
+    },
+    {
+      "org": "",
+      "name": "Victoria Sayo Turner"
     }
   ],
-  "diversity_scholarship": [
-    {
-      "org": "",
-      "name": ""
-    },
-    {
-      "org": "",
-      "name": ""
-    }
-  ]
+  "diversity_scholarship": []
 }
